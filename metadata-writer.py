@@ -1,6 +1,6 @@
 # Creates a .csv in the same folder as the images, with option to print out to console
 
-print('Hi! I\'m a Python script that will generate a .csv file with some of the metadata from pictures in whatever folder you put me in.\nI won\'t search recursively (i.e. I can\'t see pictures in subfolders).\nTo modify what metadata I print, please see line 42 of my code (data_to_print), and the exif docs (https://pypi.org/project/exif/). You will also need to modify the field names (line 27).\n')
+print('Hi! I\'m a Python script that will generate a .csv file with some of the metadata from pictures in whatever folder you put me in.\n\nI won\'t search recursively (i.e. I can\'t see pictures in subfolders).\n\nTo modify what metadata I print, please see line 42 of my code (data_to_print) and the exif docs (https://pypi.org/project/exif/). You will also need to modify the field names (line 27).\n')
 print_to_console = input('Do you want me to also print metadata information to the console? (y/N): ')
 print() # print a newline for neatness
 
